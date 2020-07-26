@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+
+
 /* navbar */
 nav {
-    background: black;
+    background: transparent;
     position: fixed;
     height: 8vh;
     width: 100%;
@@ -80,11 +82,48 @@ nav ul li a:hover {
     transform: translateX(10%);
 }
 
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media only screen and (max-width: 1334px) {
+    label.logo {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    nav ul li a p {
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width:1200px) {
     body {
         overflow-x: hidden;
     }
-
+    nav{
+        background-color: black;
+    }
     nav ul {
         position: absolute;
         right: 0px;
@@ -108,45 +147,76 @@ nav ul li a:hover {
         display: block;
     }
 }
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
-@media only screen and (max-width: 1334px) {
-    label.logo {
-        font-size: 25px;
-    }
-
-    nav ul li a p {
-        font-size: 16px;
-    }
-}
-
 @media only screen and (max-width: 500px) {
+    nav{
+        background-color: black;
+    }
     label.logo {
         font-size: 15px;
-        margin-top: 15px;
     }
 }
 /* navbar end */
+
+
+
+
+
+/*LANDING PAGE*/
+.jumbotron {
+    height: 100vh;
+    background-image: url(imgs/gif2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+#icon{
+    height: 220px;
+    width: 200px;
+}
+.main {
+    text-align: center;
+}
+#disp{
+    font-weight: 500;
+}
+.typing {
+    text-transform: uppercase;
+    font-size: 3vw;
+    padding-left: 15px;
+}
+.typ{
+    color: rgb(230, 97, 0);
+    font-size: 3vw;
+}
+.typ1{
+    font-size: 30px !important;
+}
+.blink {
+    animation: blink 0.5s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+    margin-top: 5%;
+    margin-left: 17vw;
+    display: flex;
+    text-align: center;
+}
+.flex1 {
+    margin-left: 10.5vw !important;
+}
+.jumbotron{
+    margin-bottom: 0 !important;
+}
+.fa-arrow-down{
+    position: absolute;
+    bottom: 5vh;
+    font-size: 1.9rem !important;
+    color: rgb(230, 97, 0);
+}
+
+
+

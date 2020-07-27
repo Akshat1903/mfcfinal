@@ -258,3 +258,47 @@ nav ul li a:hover {
     font-size: 6vw;
   }
 }
+
+/* About Us */
+
+.about-us{
+  margin: 0;
+  padding: 80px 0px 30px 0px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Rose', cursive;
+  color: white;
+}
+
+.about-us h1{
+  color: rgb(230, 97, 0);
+}
+
+.about-us .content{
+  display: inline-block;
+  margin: 25px;
+}
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(230, 97, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(230, 97, 0);
+}

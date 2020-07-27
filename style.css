@@ -452,3 +452,21 @@ nav ul li a:hover {
  opacity: 0;
  transition: 0.9;
 }
+
+
+
+
+/*FOOTER*/
+.page-footer {
+    margin-top: 100px;
+    background-color: rgb(230, 97, 0);
+    color: black !important;
+    bottom: 0 !important;
+}
+#white,.clearfix{
+    color: black;
+    border-color: black;
+}
+.list-unstyled li a{
+    color:black !important;
+}

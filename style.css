@@ -318,7 +318,7 @@ nav ul li a:hover {
     flex-direction: column;
     margin-top: 15%;
   }
-  .typing{
+  .typing,.typ{
     font-size: 6vw;
   }
   .changing-text{

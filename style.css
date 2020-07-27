@@ -2,6 +2,66 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+      font-family: 'Red Rose', cursive;
+}
+
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(230, 97, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(230, 97, 0);
+}
+
+
+
+
+/*LOADING*/
+.loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbarNav{
+  justify-content: center;
+  transition: all 0.7s;
+}
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+.nav-link{
+  text-align: center;
+}
+
+@keyframes fadeOut {
+  100% { 
+        opacity: 0;
+        visibility: hidden; 
+    }
 }
 
 
@@ -14,7 +74,6 @@ nav {
     width: 100%;
     top: 0;
     z-index: 100;
-    font-family: 'Red Rose', cursive;
 }
 
 label.logo {
@@ -159,6 +218,9 @@ nav ul li a:hover {
         font-size: 15px;
     }
 }
+.scrolled{
+    background-color: black;
+}
 /* navbar end */
 
 
@@ -174,7 +236,6 @@ nav ul li a:hover {
     background-size: cover;
     color: white;
     margin: 0;
-    font-family: 'Red Rose', cursive;
 }
 #icon{
     height: 220px;
@@ -259,16 +320,17 @@ nav ul li a:hover {
   }
 }
 
+
+
 /* About Us */
 
 .about-us{
   margin: 0;
-  padding: 80px 0px 30px 0px;
+  padding: 80px 0px 10px 0px;
   background-color: black;
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-family: 'Red Rose', cursive;
   color: white;
 }
 
@@ -281,24 +343,10 @@ nav ul li a:hover {
   margin: 25px;
 }
 
-/* SCROLLBAR */
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
+.high{
+    font-size: 3.2rem;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(230, 97, 0);
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(230, 97, 0);
-}
+/*DOMAINS*/

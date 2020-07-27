@@ -1,3 +1,21 @@
+window.addEventListener("load", function()
+{
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+    const mainNav = document.querySelector("nav");
+    mainNav.className += " fixed-top";
+    });
+
+
+$(document).ready();
+$(function(){
+    $(document).scroll(function(){
+        var $nav = $("nav");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    })
+});
+
+
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');

@@ -364,13 +364,14 @@ nav ul li a:hover {
 /*DOMAINS*/
 #domain{
     margin-top: 100px;
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 #domain h1{
     color: rgb(230, 97, 0);
+    margin-bottom: 30px;
 }
 .card-img{
     height: 300px;
@@ -432,7 +433,7 @@ nav ul li a:hover {
     border-radius: 20px !important;
 }
 .card1:hover .card-title1{
-    color: orange;
+    color: rgb(230, 97, 0);
 }
 .ripple {
  position: relative;
@@ -448,7 +449,7 @@ nav ul li a:hover {
  top: 0;
  left: 0;
  pointer-events: none;
- background-image: radial-gradient(circle, black 10%, transparent 10.01%);
+ background-image: radial-gradient(circle,rgb(230, 97, 0) 10%, transparent 10.01%);
  background-repeat: no-repeat;
  background-position: 50%;
  transform: scale(0, 0);

@@ -3,7 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-      font-family: 'Red Rose', cursive;
+    font-family: 'Red Rose', cursive;
+}
+body{
+    background-color: black !important;
 }
 
 
@@ -323,10 +326,12 @@ nav ul li a:hover {
 
 
 /* About Us */
-
+#au{
+    margin-top: 30px;
+}
 .about-us{
   margin: 0;
-  padding: 80px 0px 10px 0px;
+  padding: 60px 0px 10px 0px;
   background-color: black;
   text-align: center;
   align-items: center;
@@ -334,7 +339,7 @@ nav ul li a:hover {
   color: white;
 }
 
-.about-us h1{
+.about-us h1,h3{
   color: rgb(230, 97, 0);
 }
 
@@ -346,7 +351,111 @@ nav ul li a:hover {
 .high{
     font-size: 3.2rem;
 }
-
-
+.high1{
+    font-size: 2.7rem;
+}
+.aim{
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
 /*DOMAINS*/
+#domain{
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#domain h1{
+    color: rgb(230, 97, 0);
+}
+.card-img{
+    height: 300px;
+    border-radius: 0 0 20px 20px !important;
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
+}
+.domains{
+    margin: 0 10% !important;
+}
+.card-body1{
+    background-color: rgba(255,255,255,.1);
+    color: rgba(255,255,255,.5);
+    padding: 0 !important;
+    border-radius:20px !important;  
+}
+.card1{
+    text-align: center;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.card-title1{
+    margin-bottom: 0 !important;
+    padding: 12px;
+}   
+.cover{
+    height: 0;
+    border-radius: 20px !important;
+    background-color: transparent;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+.card:hover .card-img{
+    opacity: 0.3;
+    transition: opacity 0.4s ease-out;
+    bottom: 0;
+}
+.blur{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    transition-duration: 1s;
+    opacity: 0;
+}
+.card1:hover .cover{
+    position: absolute;
+    padding-top: 50px !important;
+    display: block;
+    height: 100%;
+    opacity: 1 !important;
+    transition: opacity 0.4s ease-in;
+    color: orange;
+    justify-content: center;
+    padding: 0 5%;
+}
+.card1:hover .card-body1{
+    border-radius: 20px !important;
+}
+.card1:hover .card-title1{
+    color: orange;
+}
+.ripple {
+ position: relative;
+ overflow: hidden;
+ transform: translate3d(0, 0, 0);
+}
+.ripple:after {
+ content: "";
+ display: block;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ pointer-events: none;
+ background-image: radial-gradient(circle, black 10%, transparent 10.01%);
+ background-repeat: no-repeat;
+ background-position: 50%;
+ transform: scale(0, 0);
+ opacity: 0.2;
+ transition: transform .7s, opacity 1s;
+}
+.ripple:hover:after {
+ transform: scale(10, 10);
+ opacity: 0;
+ transition: 0.9;
+}

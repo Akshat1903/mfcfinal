@@ -19,12 +19,13 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: rgba(255,255,255,.1);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(230, 97, 0);
+  background: rgba(255, 255, 255, .5);
+/*    border: 1px solid rgba(255, 255, 255, .1);*/
 }
 
 /* Handle on hover */
@@ -79,19 +80,16 @@ label.logo {
     color: rgb(226, 226, 226);
     margin-left: 5%;
 }
-
 nav ul {
     float: right;
     display: flex;
     margin-right: 5%;
     height: 8vh;
 }
-
 nav ul li {
     list-style: none;
     height: 8vh;
 }
-
 nav ul li a p {
     display: inline-block;
     margin: 0 5px;
@@ -101,7 +99,6 @@ nav ul li a p {
     height: 8vh;
     padding-top: 3vh;
 }
-
 nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
@@ -110,11 +107,9 @@ nav ul li a {
     color: rgb(226, 226, 226);
     height: 8vh;
 }
-
 nav ul li a:hover {
     color: rgb(230, 97, 0);
 }
-
 .burger {
     display: none;
     cursor: pointer;
@@ -122,7 +117,6 @@ nav ul li a:hover {
     margin-right: 3%;
     margin-top: 2vh;
 }
-
 .burger div {
     width: 25px;
     height: 3px;
@@ -130,23 +124,18 @@ nav ul li a:hover {
     margin: 5px;
     transition: all 0.3s ease;
 }
-
 .nav-active {
     transform: translateX(10%);
 }
-
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
-
 .toggle .line2 {
     opacity: 0;
 }
-
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
-
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -158,7 +147,6 @@ nav ul li a:hover {
         transform: translateX(0px);
     }
 }
-
 @media only screen and (max-width: 1334px) {
     label.logo {
         font-size: 25px;
@@ -169,7 +157,6 @@ nav ul li a:hover {
         font-size: 16px;
     }
 }
-
 @media screen and (max-width:1200px) {
     body {
         overflow-x: hidden;
@@ -215,6 +202,11 @@ nav ul li a:hover {
 .scrolled{
     background-color: black;
 }
+/*.selected{
+    color: rgb(230, 97, 0) !important;
+}*/
+
+
 /* navbar end */
 
 
@@ -313,6 +305,17 @@ nav ul li a:hover {
     font-size: 6vw;
   }
 }
+
+
+
+
+#division{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(230, 97, 0);
+    width: 100%;
+}
+
 
 
 
@@ -469,4 +472,10 @@ nav ul li a:hover {
 }
 .list-unstyled li a{
     color:black !important;
+}
+.icons{
+    margin-bottom: 0 !important;
+}
+.list-unstyled li a:hover{
+    text-decoration: none;
 }

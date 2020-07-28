@@ -81,3 +81,15 @@ function deletingEffect() {
 };
 
 typingEffect();
+
+
+
+// $(function(){
+//     $(document).scroll(function(){
+//         $(".nav-links li").removeClass("selected");
+//         $("#toau").toggleClass("selected", $(this).scrollTop() > "735" && $(this).scrollTop() < "1400");
+//         $("#tolearn").toggleClass("selected", $(this).scrollTop() > "1400" && $(this).scrollTop() < "2000");
+//         $("#tosome").toggleClass("selected", $(this).scrollTop() > "3110" && $(this).scrollTop() < "4010");
+//         $("#tocont").toggleClass("selected", $(this).scrollTop() > "4010");
+//     })
+// });

@@ -70,6 +70,7 @@ nav {
     width: 100%;
     top: 0;
     z-index: 100;
+    transition: all 1s;
 }
 label.logo {
     vertical-align: top;
@@ -216,7 +217,7 @@ nav ul li a:hover {
 /*LANDING PAGE*/
 .jumbotron {
     height: 100vh;
-    background-image: url(imgs/gif2.gif);
+    background-image: url(imgs/download6.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -229,7 +230,7 @@ nav ul li a:hover {
 }
 .main{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 #disp{
     font-weight: 500;
@@ -314,6 +315,7 @@ nav ul li a:hover {
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgb(230, 97, 0);
     width: 100%;
+    margin-top: 0 !important;
 }
 
 
@@ -355,6 +357,8 @@ nav ul li a:hover {
   color: white;
 }
 
+
+
 /*DOMAINS*/
 #domain{
     margin-top: 20px;
@@ -376,19 +380,21 @@ nav ul li a:hover {
 .domains{
     margin: 0 10% !important;
 }
-.card-body1{
+.card-body{
     background-color: rgba(255,255,255,.1);
     color: rgba(255,255,255,.5);
     padding: 0 !important;
     border-radius:20px !important;
+    transition: all 0.4s;
 }
-.card1{
+.card{
     text-align: center;
     border-radius: 0 !important;
     background-color: transparent !important;
     border-color: transparent !important;
+    transition: all 0.4s;
 }
-.card-title1{
+.card-title{
     margin-bottom: 0 !important;
     padding: 12px;
 }
@@ -402,8 +408,10 @@ nav ul li a:hover {
 }
 .card:hover .card-img{
     opacity: 0.3;
-    transition: opacity 0.4s ease-out;
+    /*transition: opacity 0.4s ease-out !important;*/
     bottom: 0;
+    filter: blur(10px);
+    transition: all 0.4s ease-out;
 }
 .blur{
     position: absolute;
@@ -412,21 +420,21 @@ nav ul li a:hover {
     transition-duration: 1s;
     opacity: 0;
 }
-.card1:hover .cover{
+.card:hover .cover{
     position: absolute;
     padding-top: 50px !important;
     display: block;
     height: 100%;
     opacity: 1 !important;
     transition: opacity 0.4s ease-in;
-    color: orange;
+    color: rgb(230, 97, 0);
     justify-content: center;
     padding: 0 5%;
 }
-.card1:hover .card-body1{
+.card:hover .card-body{
     border-radius: 20px !important;
 }
-.card1:hover .card-title1{
+.card:hover .card-title{
     color: rgb(230, 97, 0);
 }
 .ripple {

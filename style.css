@@ -80,6 +80,7 @@ label.logo {
     line-height: 8vh;
     color: rgb(226, 226, 226);
     margin-left: 5%;
+    margin-top: 0.7vh;
 }
 nav ul {
     float: right;
@@ -152,6 +153,7 @@ nav ul li a:hover {
     label.logo {
         font-size: 25px;
         margin-bottom: 0;
+        margin-top: 0.4vh;
     }
 
     nav ul li a p {
@@ -197,7 +199,8 @@ nav ul li a:hover {
         background-color: black;
     }
     label.logo {
-        font-size: 15px;
+        font-size: 18px;
+        margin-top: 0.3vh;
     }
 }
 .scrolled{

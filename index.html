@@ -1,241 +1,354 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-        <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="ha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
-        <script src="https://kit.fontawesome.com/68c0eb3568.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        <title>Mozilla Firefox Club</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="ha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/68c0eb3568.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Mozilla Firefox Club</title>
+</head>
 
 
-    <body>
+<body>
 
 
-        <!-- LOADER -->
-        <div class="loader">
-            <img src="imgs/loading.gif">
+    <!-- LOADER -->
+    <div class="loader">
+        <img src="imgs/loading.gif">
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a>
+            <label class="logo">MOZILLA FIREFOX CLUB</label>
+        </a>
+        <ul class="nav-links">
+            <li id="toau"><a href="#au">
+                    <p>About Us</p>
+                </a></li>
+            <li id="todom"><a href="#domain">
+                    <p>Domains</p>
+                </a></li>
+            <li id="to"><a href="#events">
+                    <p>Events</p>
+                </a></li>
+            <li id="to"><a href="#projects">
+                    <p>Projects</p>
+                </a></li>
+            <li id="to"><a href="#teams">
+                    <p>Teams</p>
+                </a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-
-        <!-- NAVBAR -->
-        <nav>
-            <a>
-                <label class="logo">MOZILLA FIREFOX CLUB</label>
-            </a>
-            <ul class="nav-links">
-                <li id="toau"><a href="#au"><p>About Us</p></a></li>
-                <li id="todom"><a href="#domain"><p>Domains</p></a></li>
-                <li id="to"><a href="#events"><p>Events</p></a></li>
-                <li id="to"><a href="#projects"><p>Projects</p></a></li>
-                <li id="to"><a href="#teams"><p>Teams</p></a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
+    </nav>
 
 
 
 
-        <!-- LANDING PAGE -->
-        <section>
+    <!-- LANDING PAGE -->
+    <section>
         <div class="jumbotron jumbotron-fluid" id="jumbo">
             <div class="container main">
-            <img src="imgs/mfcicon.png" class="d-inline-block align-top" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500" id="icon">
-            <h1 class="display-3" id="disp" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000">Mozilla Firefox Club</h1>
-            <strong>
-                <p class="lead" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">A STUDENT CLUB IN VIT VELLORE</p>
-            </strong>
+                <img src="imgs/mfcicon.png" class="d-inline-block align-top" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500" id="icon">
+                <h1 class="display-3" id="disp" data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000">Mozilla Firefox Club</h1>
+                <strong>
+                    <p class="lead" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1500">A STUDENT CLUB IN VIT VELLORE</p>
+                </strong>
             </div>
             <div class="flex" id="flex">
-                <span class="typing" id="gg">A Team Fully Stacked With</span> <span class="changing-text"><p class="header-sub-title typing typ" id="word">  </p><p class="header-sub-title blink typ" id="blinking">|</p></span>
+                <span class="typing" id="gg">A Team Fully Stacked With</span> <span class="changing-text">
+                    <p class="header-sub-title typing typ" id="word"> </p>
+                    <p class="header-sub-title blink typ" id="blinking">|</p>
+                </span>
             </div>
             <center><a href="#au"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></center>
         </div>
-        </section>
+    </section>
 
 
-        <!-- <hr id="division"> -->
+    <!-- <hr id="division"> -->
 
 
-        <!-- ABOUT US -->
-        <section id="au">
-            <div class="about-us">
-                <div class="container">
-                    <h1><span class="high">A</span>BOUT <span class="high">U</span>S</h1>
-                        <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                    </div>
-              </div>
-            <div class="about-us">
-                <div class="container">
-                    <h3><span class="high1">O</span>UR <span class="high1">A</span>IM</h3>
-                        <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
+    <!-- ABOUT US -->
+    <section id="au">
+        <div class="about-us">
+            <div class="container">
+                <h1><span class="high">A</span>BOUT <span class="high">U</span>S</h1>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
             </div>
+        </div>
+        <div class="about-us">
+            <div class="container">
+                <h3><span class="high1">O</span>UR <span class="high1">A</span>IM</h3>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </div>
 
 
         <!-- DOMAINS -->
         <section id="domain">
             <h1><span class="high">O</span>UR <span class="high">D</span>OMAINS</h1>
             <div class="row row-cols-1 row-cols-md-3 domains">
-            <div class="col mb-4">
-                <div class="card h-100" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2500" data-aos-offset="300">
-                    <div class="card-body ripple">
-                    <h5 class="card-title">TECHNICAL</h5>
-                    <p class="cover">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <img src="imgs/tech.png" class="card-img">
+                <div class="col mb-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2500" data-aos-offset="300">
+                        <div class="card-body ripple">
+                            <h5 class="card-title">TECHNICAL</h5>
+                            <p class="cover">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            <img src="imgs/tech.png" class="card-img">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2500">
-                    <div class="card-body ripple">
-                    <h5 class="card-title">MANAGEMENT</h5>
-                    <p class="cover">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <img src="imgs/manage.png" class="card-img">
+                <div class="col mb-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2500">
+                        <div class="card-body ripple">
+                            <h5 class="card-title">MANAGEMENT</h5>
+                            <p class="cover">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            <img src="imgs/manage.png" class="card-img">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2500" data-aos-offset="300">
-                    <div class="card-body ripple">
-                    <h5 class="card-title">DESIGN</h5>
-                    <p class="cover" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
-                    <img src="imgs/design.png" class="card-img">
-                    </div>
+                <div class="col mb-4">
+                    <div class="card h-100" data-aos="fade-up" data-aos-delay="250" data-aos-duration="2500" data-aos-offset="300">
+                        <div class="card-body ripple">
+                            <h5 class="card-title">DESIGN</h5>
+                            <p class="cover">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.</p>
+                            <img src="imgs/design.png" class="card-img">
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
         </section>
-      </section>
+    </section>
 
-
-
-
-
-
-        <!-- FOOTER -->
-        <footer class="page-footer font-small stylish-color-lite pt-4">
-        <div class="container text-center text-md-left">
+    <div class="teams" id="teams" data-aos="fade-up" data-aos-duration="1500">
+        <h1 style="color: rgb(230, 97, 0)">Our Team</h1>
+        <h3 style="color: rgb(230, 97, 0)">Presenting board of 2020-2021</h3>
+        <!-- <div class="container"> -->
         <div class="row">
-        <div class="col-md-4 mx-auto">
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mozilla Firefox VIT</h5>
-            <p>Firefox Club-VIT is the club for Mozilla Firefox open-source community enthusiasts at VIT University,Vellore, to promote the Web development and Open Source Technologies in the University and also to promote the Mozilla technologies.</p>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-duration="1500">
+                <div class="team-card">
+                    <img src="imgs/s3.PNG" alt="">
+                    <p class="user-name"><b>User Name</b></p>
+                    <p clas="board-position">Board Position</p>
+                    <div class="team-card-social-icon">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <hr class="clearfix w-100 d-md-none">
-        <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="branches/events.html">Our Events</a>
-          </li>
-          <li>
-            <a href="#">Our Projects</a>
-          </li>
-          <li>
-            <a href="#">Parnters</a>
-          </li>
-          <li>
-            <a href="branches/team.html">Our Team</a>
-          </li>
-        </ul>
-        </div>
-        <div class="col-md-2 mx-auto">
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Other Links</h5>
-        <ul class="list-unstyled">
-          <li>
-            <a href="#">Upcoming Events</a>
-          </li>
-          <li>
-            <a href="#au">Recruiments</a>
-          </li>
-          <li>
-            <a href="#work">Sponser Us??</a>
-          </li>
-          <li>
-            <a href="#team">Our Projects</a>
-          </li>
-          <li>
-            <a href="#team">Our Blog</a>
-          </li>
-        </ul>
-        </div>
-        </div>
+        <!-- </div> -->
     </div>
-    <hr id="white">
-
-    <ul class="list-unstyled list-inline text-center icons">
-        <li class="list-inline-item">
-            <a href="">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="">
-                <i class="fab fa-github"></i>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a href="">
-                <i class="fas fa-phone-alt"></i>
-            </a>
-        </li>
-
-    </ul>
-
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <span id="mfc">Mozilla FireFox Club, VIT</span>
-  </div>
-</footer>
 
 
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer font-small stylish-color-lite pt-4">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mozilla Firefox VIT</h5>
+                    <p>Firefox Club-VIT is the club for Mozilla Firefox open-source community enthusiasts at VIT University,Vellore, to promote the Web development and Open Source Technologies in the University and also to promote the Mozilla
+                        technologies.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="branches/events.html">Our Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Parnters</a>
+                        </li>
+                        <li>
+                            <a href="branches/team.html">Our Team</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Other Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Upcoming Events</a>
+                        </li>
+                        <li>
+                            <a href="#au">Recruiments</a>
+                        </li>
+                        <li>
+                            <a href="#work">Sponser Us??</a>
+                        </li>
+                        <li>
+                            <a href="#team">Our Projects</a>
+                        </li>
+                        <li>
+                            <a href="#team">Our Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr id="white">
+
+        <ul class="list-unstyled list-inline text-center icons">
+            <li class="list-inline-item">
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <span id="mfc">Mozilla FireFox Club, VIT</span>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
         AOS.init();
-        </script>
+    </script>
 
 
 
-    </body>
+</body>
+
 </html>

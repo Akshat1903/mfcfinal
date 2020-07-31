@@ -473,20 +473,34 @@ nav ul li a:hover {
 
 .teams{
   position: relative;
-  margin: 30px 10%;
+  margin: 30px 7%;
   text-align: center;
 }
 
 .team-card{
   background: white;
-  margin: 50px 10%;
-  margin-bottom: 0px;
+  /* width: 275px; */
+  margin: 50px 3%;
   padding-top: 20px;
   padding-bottom: 20px;
   border: .5px solid black;
   border-radius: .8rem;
   transition: box-shadow 0.5s;
   color: black;
+}
+
+.team-card .first-name{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.team-card .last-name{
+  display: block;
+  text-align: center;
+  font-size: 25px;
 }
 
 .team-card:hover{

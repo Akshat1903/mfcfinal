@@ -473,7 +473,9 @@ nav ul li a:hover {
 
 
 /* TEAMS */
-
+#teams{
+    margin-top: 50px;
+}
 .teams{
   position: relative;
   margin: 30px 15%;

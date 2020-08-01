@@ -507,6 +507,7 @@ nav ul li a:hover {
 }
 #wrap{
     height: 600px;
+    margin-top: 40px;
 }
 .stacked-cards{
   position: sticky !important;

@@ -446,13 +446,13 @@ nav ul li a:hover {
     filter: blur(10px);
     transition: all 0.4s ease-out;
 }
-.blur {
+/* .blur {
     position: absolute;
     left: 0;
     top: 70px;
     transition-duration: 1s;
     opacity: 0;
-}
+} */
 .card:hover .cover {
     position: absolute;
     padding-top: 50px !important;

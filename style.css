@@ -563,6 +563,22 @@ nav ul li a:hover {
 
 
 .swiper-container {
+  width: 90%;
+  height: 40vh;
+  margin-top: 7vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+}
+
+/*.swiper-container {
   width: 100%;
   height: 40vh;
   margin-top: 7vh;
@@ -584,7 +600,11 @@ nav ul li a:hover {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-}
+  background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+}*/
 .swiper-pagination-bullet{
     background-color: rgb(230, 97, 0) !important;
 }

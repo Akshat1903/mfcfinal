@@ -103,6 +103,15 @@ var stackedCardSlide = new stackedCards({
 
         stackedCardSlide.init();
 
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+
 // $(function(){
 //     $(document).scroll(function(){
 //         $(".nav-links li").removeClass("selected");

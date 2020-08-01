@@ -84,6 +84,25 @@ typingEffect();
 
 
 
+
+var stackedCard = new stackedCards({
+         selector: '.mycards',
+         layout: "slide",
+         transformOrigin: "center",
+    });
+
+    stackedCard.init();
+var stackedCardSlide = new stackedCards({
+    transformOrigin: "bottom"
+});
+var stackedCardSlide = new stackedCards({
+             selector: '.stacked-cards-slide',
+             layout: "slide",
+             transformOrigin: "center",
+         });
+
+        stackedCardSlide.init();
+
 // $(function(){
 //     $(document).scroll(function(){
 //         $(".nav-links li").removeClass("selected");

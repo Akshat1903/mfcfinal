@@ -512,9 +512,65 @@ nav ul li a:hover {
     transition: 0.9;
 }
 
+
+
+/*EVENTS*/
+#events{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#wrap{
+    height: 600px;
+}
+.stacked-cards{
+  position: sticky !important;
+}
+.stacked-cards h2 {
+    text-align: center;
+    position: absolute;
+    top: -20px;
+}
+.container-fuild {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.container-fixed {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.stacked-cards {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.stacked-cards li {
+    height: 400px;
+    width: 35% !important;
+}
+.event-image{
+    height: 100% !important;
+    width: 100%;
+}
+.stacked-cards ul {
+    max-width: 90% !important;
+}
+@media (max-width: 767px) {
+    .stacked-cards li {
+        height: 180px;
+    }
+}
+.stacked-cards li:nth-child(n) {
+}
+.stacked-cards li:nth-child(2n) {
+}
+
+
+
+
 /* TEAMS */
 #teams {
     margin-top: 50px;
+    padding-top: 30px;
 }
 
 .teams {

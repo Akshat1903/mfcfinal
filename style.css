@@ -165,7 +165,7 @@ nav ul li a:hover {
         overflow-x: hidden;
     }
     nav{
-        background: transparent;
+        background: black;
     }
     nav ul {
         position: absolute;
@@ -196,7 +196,8 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 500px) {
     nav{
-        background: transparent;    }
+        background: black;    
+    }
     label.logo {
         font-size: 18px;
         margin-top: 0.3vh;

@@ -38,10 +38,6 @@ const navSlide = () => {
 }
 navSlide();
 
-
-
-
-
 const words = ["DEVELOPERS", "DESIGNERS", "CODERS","EVERYONE!!"];
 let i = 0;
 let timer;
@@ -81,62 +77,3 @@ function deletingEffect() {
 };
 
 typingEffect();
-
-
-
-
-var stackedCard = new stackedCards({
-         selector: '.mycards',
-         layout: "slide",
-         transformOrigin: "center",
-    });
-
-    stackedCard.init();
-var stackedCardSlide = new stackedCards({
-    transformOrigin: "bottom"
-});
-var stackedCardSlide = new stackedCards({
-             selector: '.stacked-cards-slide',
-             layout: "slide",
-             transformOrigin: "center",
-         });
-
-        stackedCardSlide.init();
-
-
-
-var swiper = new Swiper('.swiper-container', {
-      loop: true,
-      loopFillGroupWithBlank: true,
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-    });
-
-
-// $(function(){
-//     $(document).scroll(function(){
-//         $(".nav-links li").removeClass("selected");
-//         $("#toau").toggleClass("selected", $(this).scrollTop() > "735" && $(this).scrollTop() < "1400");
-//         $("#tolearn").toggleClass("selected", $(this).scrollTop() > "1400" && $(this).scrollTop() < "2000");
-//         $("#tosome").toggleClass("selected", $(this).scrollTop() > "3110" && $(this).scrollTop() < "4010");
-//         $("#tocont").toggleClass("selected", $(this).scrollTop() > "4010");
-//     })
-// });

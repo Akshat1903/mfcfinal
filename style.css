@@ -641,8 +641,18 @@ nav ul li a:hover {
         width: 300px;
     }
 }
+.swiper-pagination1{
+    transform: translateY(7px);
+    margin: 0 auto;
+}
+.swiper-pagination2{
+    transform: translateY(7px);
+    margin: 0 auto;
+}
+.swiper-pagination-bullet-active{
+    background: rgb(237, 90, 0) !important;
 
-
+}
 
 
 

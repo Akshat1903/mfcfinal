@@ -92,10 +92,11 @@ var swiper = new Swiper('.swiper-container', {
                 slideShadows: false,
             },
             pagination: {
-                el: '.swiper-pagination',
-            },
+                el: '.swiper-pagination1',
+                clickable: true,
+              },
         });
-        var swiper = new Swiper('.swiper_events', {
+var swiper2 = new Swiper('.swiper_events', {
             effect: 'coverflow',
             grabCursor: true,
             centeredSlides: true,
@@ -108,6 +109,7 @@ var swiper = new Swiper('.swiper-container', {
                 slideShadows: false,
             },
             pagination: {
-                el: '.swiper-pagination',
-            },
+                el: '.swiper-pagination2',
+                clickable: true,
+              },
         });

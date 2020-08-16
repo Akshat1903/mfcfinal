@@ -643,17 +643,18 @@ nav ul li a:hover {
 }
 .swiper-pagination1{
     transform: translateY(7px);
-    margin: 0 auto;
+    margin: 0 50%;
 }
 .swiper-pagination2{
     transform: translateY(7px);
-    margin: 0 auto;
+    margin: 0 50%;
 }
 .swiper-pagination-bullet-active{
     background: rgb(237, 90, 0) !important;
-
 }
-
+.swiper-pagination-bullet{
+    background: rgb(237, 90, 0) !important;
+}
 
 
 

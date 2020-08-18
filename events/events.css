@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: blue;
 }
 
 header{
@@ -14,14 +15,16 @@ header{
 }
 
 .about{
-    height: 300vh;
     display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about-title{
     width: 35%;
     height: 100vh;
     display: flex;
+    background-color: orange;
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -62,18 +65,9 @@ header{
 
 
 .about-rivera{
-    height: 300vh;
     display: flex;
-}
-
-.about-title-rivera{
-    width: 35%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin: 0!important;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about-pages-rivera{
@@ -107,21 +101,14 @@ header{
     background-color: rgb(31,88,107);
 }
 
-
-.about-daily{
-    height: 300vh;
-    display: flex;
+.about-pages-rivera div:nth-child(4){
+    background-color: rgb(129,42,110);
 }
 
-.about-title-daily{
-    width: 35%;
-    height: 100vh;
+.about-daily{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    border: 3px solid black;
-    margin: 0!important;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about-pages-daily{
@@ -153,6 +140,29 @@ header{
 
 .about-pages-daily div:nth-child(3){
     background-color: rgb(31,88,107);
+}
+
+.about-pages-daily div:nth-child(4){
+    background-color: rgb(129,42,110);
+}
+
+@media only screen and (max-width: 600px){
+    .about-title{
+        width: 25%;
+    }
+
+    .about-pages, .about-pages-rivera, .about-pages-daily{
+        width: 75%;
+    }
+
+    .about-title h2{
+        position: absolute;
+        color: red;
+        font-size: 50px;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        letter-spacing: 8px;
+    }
 }
 
 footer{

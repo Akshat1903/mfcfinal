@@ -1,42 +1,19 @@
 function splitScrollGravitas(){
     const controller = new ScrollMagic.Controller();
 
-    new ScrollMagic.Scene({
-        duration: '200%',
-        triggerElement: '.about-title',
-        triggerHook: 0
-    })
-    .setPin('.about-title')
-    // .addIndicators()
-    .addTo(controller);
+    for (var i=1;i<=3;i++){
+        var len = document.querySelectorAll('.category-slides-'+i).length;
+        var height = (len*100) + 'vh';
+        var percent = (len - 1)*100;
+        document.querySelector('.about-' + i).style.height = height;
+        new ScrollMagic.Scene({
+            duration: percent + '%',
+            triggerElement: '.category-' + i,
+            triggerHook: 0
+        })
+        .setPin('.category-'+i)
+        .addTo(controller);
+    }
 }
 
-function splitScrollRivera(){
-    const controller = new ScrollMagic.Controller();
-
-    new ScrollMagic.Scene({
-        duration: '200%',
-        triggerElement: '.about-title-rivera',
-        triggerHook: 0
-    })
-    .setPin('.about-title-rivera')
-    // .addIndicators()
-    .addTo(controller);
-}
-
-function splitScrollDaily(){
-    const controller = new ScrollMagic.Controller();
-
-    new ScrollMagic.Scene({
-        duration: '200%',
-        triggerElement: '.about-title-daily',
-        triggerHook: 0
-    })
-    .setPin('.about-title-daily')
-    // .addIndicators()
-    .addTo(controller);
-}
-
-splitScrollDaily();
-splitScrollRivera();
 splitScrollGravitas();

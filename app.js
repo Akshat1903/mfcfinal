@@ -92,24 +92,7 @@ var swiper = new Swiper('.swiper-container', {
                 slideShadows: false,
             },
             pagination: {
-                el: '.swiper-pagination1',
-                clickable: true,
-              },
-        });
-var swiper2 = new Swiper('.swiper_events', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 30,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: false,
-            },
-            pagination: {
-                el: '.swiper-pagination2',
+                el: '.swiper-pagination',
                 clickable: true,
               },
         });

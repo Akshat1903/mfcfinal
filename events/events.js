@@ -16,4 +16,69 @@ function splitScrollGravitas(){
     }
 }
 
+function showContentGravitas(){
+    var len = document.querySelectorAll('.category-slides-1').length;
+    var button;
+    for (var i=1;i<=len;i++){
+        console.log(button);
+        document.getElementById("gravitas-"+i).addEventListener('click',function(e){
+            button = document.getElementById(e.originalTarget.id);
+            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            if (button.innerHTML === 'Know More'){
+                button.innerHTML = 'Show Less';
+            } else{
+                button.innerHTML = 'Know More';
+            }
+        });
+    }
+}
+
+function showContentRivera(){
+    var len = document.querySelectorAll('.category-slides-2').length;
+    var button;
+    for (var i=1;i<=len;i++){
+        console.log(button);
+        document.getElementById("rivera-"+i).addEventListener('click',function(e){
+            button = document.getElementById(e.originalTarget.id);
+            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            if (button.innerHTML === 'Know More'){
+                button.innerHTML = 'Show Less';
+            } else{
+                button.innerHTML = 'Know More';
+            }
+        });
+    }
+}
+
+function showContentDaily(){
+    var len = document.querySelectorAll('.category-slides-3').length;
+    var button;
+    for (var i=1;i<=len;i++){
+        console.log(button);
+        document.getElementById("daily-"+i).addEventListener('click',function(e){
+            button = document.getElementById(e.originalTarget.id);
+            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            if (button.innerHTML === 'Know More'){
+                button.innerHTML = 'Show Less';
+            } else{
+                button.innerHTML = 'Know More';
+            }
+        });
+    }
+}
+
+// function setHeight(){
+//     for (var i=1;i<=3;i++){
+//         var len = document.querySelectorAll('.category-slides-'+i).length;
+//         var h = 0;
+//         for (var j=1;j<=len;j++){
+//
+//         }
+//         var height = (len*100) + 'vh';
+//         var percent = (len - 1)*100;
+//         document.querySelector('.about-' + i).style.height = height;
+// }
 splitScrollGravitas();
+showContentGravitas();
+showContentRivera();
+showContentDaily();

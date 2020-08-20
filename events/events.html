@@ -3,12 +3,45 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <script src="https://kit.fontawesome.com/68c0eb3568.js" crossorigin="anonymous"></script>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="events.css">
-        <title></title>
+        <title>Events</title>
+        <link rel="icon" href="../imgs/mfcicon.png" type="image/x-icon">
     </head>
     <body>
+        <!-- NAVBAR -->
+        <nav>
+            <a>
+                <label class="logo">MOZILLA FIREFOX CLUB</label>
+            </a>
+            <ul class="nav-links">
+                <li id="toau"><a href="#au">
+                        <p>About Us</p>
+                    </a></li>
+                <li id="todom"><a href="#domain">
+                        <p>Domains</p>
+                    </a></li>
+                <li id="to"><a href="#events">
+                        <p>Events</p>
+                    </a></li>
+                <li id="to"><a href="#blogs">
+                        <p>Blogs</p>
+                    </a></li>
+                <li id="to"><a href="#teams">
+                        <p>Team</p>
+                    </a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
         <header>
             <h1>Welcome to Parallax</h1>
         </header>
@@ -174,7 +207,7 @@
                         elit, sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam, quis
                         nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                    <button type="button" id="daily-4">Know More</button>        
+                    <button type="button" id="daily-4">Know More</button>
                 </div>
             </div>
         </section>
@@ -182,8 +215,14 @@
         <footer>
             <h2>Pretty Cool</h2>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <script src="events.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

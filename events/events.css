@@ -1,8 +1,208 @@
-body{
+/* body{
     padding: 0;
     margin: 0;
     background-color: blue;
     font-family: 'Red Rose', cursive;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Red Rose', cursive;
+}
+
+body {
+    background-color: black !important;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(230, 97, 0);
+    /*    border: 1px solid rgba(255, 255, 255, .1);*/
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(230, 97, 0);
+}
+
+/* Navbar */
+
+nav {
+    background: transparent;
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    transition: all 1s;
+}
+
+label.logo {
+    vertical-align: top;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 8vh;
+    color: rgb(226, 226, 226);
+    margin-left: 5%;
+    margin-top: 0.7vh;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    margin-right: 5%;
+    height: 8vh;
+}
+
+nav ul li {
+    list-style: none;
+    height: 8vh;
+}
+
+nav ul li a p {
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: .8rem;
+    letter-spacing: 2px;
+    vertical-align: top;
+    height: 8vh;
+    padding-top: 3vh;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0 13px;
+    border-radius: 3px;
+    color: rgb(226, 226, 226);
+    height: 8vh;
+}
+
+nav ul li a:hover {
+    color: rgb(230, 97, 0);
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2vh;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-active {
+    transform: translateX(10%);
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media only screen and (max-width: 1334px) {
+    label.logo {
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-top: 0.4vh;
+    }
+
+    nav ul li a p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        background: black;
+    }
+
+    nav ul {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%) !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        transform: translateX(110%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        opacity: 0;
+        margin: 20px;
+    }
+
+    nav ul li a:hover {
+        color: black;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        background: black;
+    }
+
+    label.logo {
+        font-size: 15px;
+        margin-top: 0.3vh;
+    }
+}
+
+.scrolled {
+    background-color: black;
 }
 
 header{

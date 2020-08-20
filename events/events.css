@@ -215,6 +215,10 @@ header{
     color: white;
 }
 
+.events-detail{
+    background: linear-gradient(to bottom, #08192d, black);
+}
+
 .about{
     display: flex;
     margin-left: 20%;

@@ -52,10 +52,9 @@ function showContentGravitas(){
     var len = document.querySelectorAll('.category-slides-1').length;
     var button;
     for (var i=1;i<=len;i++){
-        console.log(button);
         document.getElementById("gravitas-"+i).addEventListener('click',function(e){
-            button = document.getElementById(e.originalTarget.id);
-            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            button = document.getElementById(e.target.id);
+            document.querySelector('.' + e.target.id).classList.toggle('hidden-content');
             if (button.innerHTML === 'Know More'){
                 button.innerHTML = 'Show Less';
             } else{
@@ -69,10 +68,9 @@ function showContentRivera(){
     var len = document.querySelectorAll('.category-slides-2').length;
     var button;
     for (var i=1;i<=len;i++){
-        console.log(button);
         document.getElementById("rivera-"+i).addEventListener('click',function(e){
-            button = document.getElementById(e.originalTarget.id);
-            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            button = document.getElementById(e.target.id);
+            document.querySelector('.' + e.target.id).classList.toggle('hidden-content');
             if (button.innerHTML === 'Know More'){
                 button.innerHTML = 'Show Less';
             } else{
@@ -86,10 +84,9 @@ function showContentDaily(){
     var len = document.querySelectorAll('.category-slides-3').length;
     var button;
     for (var i=1;i<=len;i++){
-        console.log(button);
         document.getElementById("daily-"+i).addEventListener('click',function(e){
-            button = document.getElementById(e.originalTarget.id);
-            document.querySelector('.' + e.originalTarget.id).classList.toggle('hidden-content');
+            button = document.getElementById(e.target.id);
+            document.querySelector('.' + e.target.id).classList.toggle('hidden-content');
             if (button.innerHTML === 'Know More'){
                 button.innerHTML = 'Show Less';
             } else{

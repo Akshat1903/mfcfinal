@@ -1,10 +1,10 @@
-$(document).ready();
-$(function(){
-    $(document).scroll(function(){
-        var $nav = $("nav");
-        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-    })
-});
+// $(document).ready();
+// $(function(){
+//     $(document).scroll(function(){
+//         var $nav = $("nav");
+//         $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+//     })
+// });
 
 
 const navSlide = () => {

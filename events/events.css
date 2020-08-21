@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Red Rose', cursive;
+
 }
 
 body {
     margin-top: 8vh;
     background-color: black !important;
+    font-family: 'Red Rose', cursive;
 }
 
 /* SCROLLBAR */
@@ -52,7 +55,6 @@ label.logo {
     letter-spacing: 2px;
     line-height: 8vh;
     color: rgb(226, 226, 226);
-    margin-top: 0.7vh;
     float: right;
     margin-right: 3%;
 }
@@ -77,10 +79,12 @@ label.logo {
 #back label{
     cursor: pointer;
 }
+
 #mfc{
     text-align: right;
     margin-right: 5%;
     float: right;
+    padding-bottom: 10px;
     display: none;
 }
 
@@ -114,11 +118,17 @@ label.logo {
     width: 35%;
     height: 100vh;
     display: flex;
-    background-color: orange;
+    background-color: rgb(230, 97, 0);
     justify-content: center;
     align-items: center;
-    font-size: 30px;
     margin: 0!important;
+    color: black;
+    font-family: 'Black Ops One', cursive !important;
+    font-size: 60px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: 10px;
+    box-shadow: 0 0 30px #d35400;
 }
 
 .about-pages{
@@ -141,7 +151,8 @@ label.logo {
 }
 
 .about-pages div:nth-child(1){
-    background-color: rgb(56,134,89);
+    /* background-color: rgb(56,134,89); */
+    background-color: #ffc107;
 }
 
 .about-pages div:nth-child(2){
@@ -299,7 +310,7 @@ label.logo {
 
 @media only screen and (max-width: 600px){
     .about-title{
-        width: 28%;
+        width: 25%;
         background: #08192d;
     }
 
@@ -307,20 +318,11 @@ label.logo {
         width: 85%;
     }
 
-    .about-title h2{
-        color: red;
-        font-size: 60px;
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
-        letter-spacing: 10px;
+    .about-title p{
+        color: rgb(230, 97, 0);
+        font-size: 40px;
+        letter-spacing: 5px;
     }
-
-    .category-2 h2{
-        writing-mode: vertical-rl;
-        transform: rotate(0deg);
-        letter-spacing: 10px;
-    }
-
 
     nav {
         background: black;

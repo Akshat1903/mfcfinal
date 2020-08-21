@@ -59,11 +59,38 @@ label.logo {
     letter-spacing: 2px;
     line-height: 8vh;
     color: rgb(226, 226, 226);
-    width: 100%;
-    text-align: center;
     margin-top: 0.7vh;
+    float: right;
+    margin-right: 3%;
 }
-
+#back,#mfc{
+    vertical-align: top;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 8vh;
+    color: rgb(226, 226, 226); 
+}
+#back{
+    text-align: left;
+    margin-left: 3%;
+    float: left;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 150;
+}
+#back:hover{
+    cursor: pointer;
+}
+#back label{
+    cursor: pointer;
+}
+#mfc{
+    text-align: right;
+    margin-right: 3%;
+    float: right;
+    display: none;
+}
 nav ul {
     float: right;
     display: flex;
@@ -145,11 +172,13 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 1334px) {
     label.logo {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 0;
         margin-top: 0.4vh;
     }
-
+    #back{
+        font-size: 20px;
+    }
     nav ul li a p {
         font-size: 16px;
     }
@@ -200,6 +229,11 @@ nav ul li a:hover {
     label.logo {
         font-size: 15px;
         margin-top: 0.3vh;
+        display: none;
+    }
+    #back,#mfc{
+        display: block;
+        font-size: 15px;
     }
 }
 
@@ -207,18 +241,8 @@ nav ul li a:hover {
     background-color: black;
 }
 
-header{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    background-size: cover;
-    color: white;
-}
-
 .events-detail{
-    background: linear-gradient(to bottom, #08192d, black);
+    background: #08192d;
 }
 
 .about{

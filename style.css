@@ -352,6 +352,7 @@ nav ul li a:hover {
 #au {
     /* margin-top: 30px; */
     background: linear-gradient(to bottom, #08192d, black);
+    /*background: #08192d;*/
 }
 
 .about-us {
@@ -574,7 +575,7 @@ nav ul li a:hover {
 
 .card_events:hover .content_events img{
     transition: 0.5s;
-    top: -110px;
+    top: -130px;
     opacity: 1;
 }
 

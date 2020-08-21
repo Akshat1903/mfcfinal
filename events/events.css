@@ -119,12 +119,13 @@ label.logo {
     height: 100vh;
     display: flex;
     background-color: rgb(230, 97, 0);
-    justify-content: center;
+    /* justify-content: center; */
+    padding-top: 10vh;
     align-items: center;
     margin: 0!important;
     color: black;
     font-family: 'Black Ops One', cursive !important;
-    font-size: 60px;
+    font-size: 55px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     letter-spacing: 10px;
@@ -316,7 +317,14 @@ label.logo {
 
     .about-pages, .about-pages-rivera, .about-pages-daily{
         width: 85%;
+        /* font-size: 20px; */
     }
+
+    .about-pages div p, .about-pages-rivera div p, .about-pages-daily div p{
+      font-size: 15px !important;
+      line-height: 1.5;
+    }
+
 
     .about-title p{
         color: rgb(230, 97, 0);

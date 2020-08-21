@@ -66,11 +66,10 @@ label.logo {
 }
 #back{
     text-align: left;
-    margin-left: 3%;
+    margin-left: 5%;
     float: left;
     font-size: 25px;
     cursor: pointer;
-    z-index: 150;
 }
 #back:hover{
     cursor: pointer;
@@ -80,9 +79,21 @@ label.logo {
 }
 #mfc{
     text-align: right;
-    margin-right: 3%;
+    margin-right: 5%;
     float: right;
     display: none;
+}
+
+#back:hover{
+    color: rgb(230, 97, 0);
+}
+
+#mfc:hover{
+    color: rgb(230, 97, 0);
+}
+
+.logo:hover{
+    color: rgb(230, 97, 0);
 }
 
 .scrolled {
@@ -289,6 +300,7 @@ label.logo {
 @media only screen and (max-width: 600px){
     .about-title{
         width: 28%;
+        background: #08192d;
     }
 
     .about-pages, .about-pages-rivera, .about-pages-daily{
@@ -302,6 +314,13 @@ label.logo {
         transform: rotate(180deg);
         letter-spacing: 10px;
     }
+
+    .category-2 h2{
+        writing-mode: vertical-rl;
+        transform: rotate(0deg);
+        letter-spacing: 10px;
+    }
+
 
     nav {
         background: black;

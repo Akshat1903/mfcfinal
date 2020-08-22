@@ -163,72 +163,9 @@ nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width: 1334px) {
-    label.logo {
-        font-size: 25px;
-        margin-bottom: 0;
-        margin-top: 0.4vh;
-    }
-
-    nav ul li a p {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    nav {
-        background: black;
-    }
-
-    nav ul {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%) !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 60%;
-        transform: translateX(110%);
-        transition: transform 0.5s ease-in;
-    }
-
-    nav ul li {
-        opacity: 0;
-        margin: 20px;
-    }
-
-    nav ul li a:hover {
-        color: black;
-    }
-
-    .burger {
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    nav {
-        background: black;
-    }
-
-    label.logo {
-        font-size: 15px;
-        margin-top: 0.3vh;
-    }
-}
-
 .scrolled {
     background-color: black;
 }
-
-
-
 
 
 /*LANDING PAGE*/
@@ -314,45 +251,10 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-@media screen and (max-width:600px) {
-    #icon {
-        height: 180px;
-        width: 160px;
-    }
-
-    #disp {
-        font-weight: 500;
-        font-size: 50px;
-    }
-
-    .main {
-        padding-top: 15%;
-    }
-
-    .flex {
-        padding-left: 0px;
-        flex-direction: column;
-        margin-top: 15%;
-    }
-
-    .typing, .typ {
-        font-size: 6vw;
-    }
-
-    .changing-text {
-        font-size: 6vw;
-    }
-}
-
-
-
-
 
 /* About Us */
 #au {
-    /* margin-top: 30px; */
     background: linear-gradient(to bottom, #08192d, black);
-    /*background: #08192d;*/
 }
 
 .about-us {
@@ -388,9 +290,6 @@ nav ul li a:hover {
     justify-content: center;
     color: white;
 }
-
-
-
 
 /*DOMAINS*/
 #domain {
@@ -505,13 +404,11 @@ nav ul li a:hover {
     transition: 0.9;
 }
 
-
-
-
 /* Events */
 #events{
     padding-top: 80px;
 }
+
 #events h1{
     text-align: center;
     margin-bottom: 60px;
@@ -551,7 +448,6 @@ nav ul li a:hover {
     background: rgba(255,255,255,0.05);
     pointer-events: none;
 }
-
 
 .content_events{
     position: absolute;
@@ -638,30 +534,21 @@ nav ul li a:hover {
     margin-bottom: 24px;
 }
 
-@media only screen and (max-width: 720px) {
-    .card_events {
-        width: 300px;
-    }
 
-    .swiper-container .swiper-wrapper .swiper-slide{
-        width: 300px;
-    }
-}
 .swiper-pagination{
     transform: translateY(5px) !important;
 }
+
 .swiper-pagination-bullet-active,.swiper-pagination-bullet{
     background: rgb(237, 90, 0) !important;
     outline: none;
 }
 
-
-
-
 /* Blog */
 #blogs{
     padding-top: 80px;
 }
+
 #blogs h1{
     text-align: center;
     margin-bottom: 60px;
@@ -701,6 +588,7 @@ nav ul li a:hover {
     background: rgba(255,255,255,0.05);
     pointer-events: none;
 }
+
 .content_medium{
     position: absolute;
     padding: 20px;
@@ -737,7 +625,6 @@ nav ul li a:hover {
     color: #fff;
     font-size: 15px;
 }
-
 
 .card_medium .content_medium a{
     display: inline-block;
@@ -780,20 +667,6 @@ nav ul li a:hover {
     height: 450px;
     width: 450px;
 }
-
-@media only screen and (max-width: 720px) {
-    .card_medium {
-        width: 300px;
-    }
-
-    .swiper-container .swiper-wrapper .swiper-slide{
-        width: 300px;
-    }
-}
-
-
-
-
 
 /* TEAMS */
 #teams {
@@ -908,12 +781,6 @@ nav ul li a:hover {
     transition: transform 0.6s ease-in-out;
 }
 
-@media only screen and (max-width: 1200px) {
-    .teams {
-        margin: 30px 8%;
-    }
-}
-
 .card-margin {
     margin: 50px 0;
 }
@@ -921,10 +788,6 @@ nav ul li a:hover {
 .teacher {
     margin: 50px auto;
 }
-
-
-
-
 
 /*FOOTER*/
 .page-footer {
@@ -949,4 +812,120 @@ nav ul li a:hover {
 
 .list-unstyled li a:hover {
     text-decoration: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1334px) {
+    label.logo {
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-top: 0.4vh;
+    }
+
+    nav ul li a p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        background: black;
+    }
+
+    nav ul {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%) !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        transform: translateX(110%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        opacity: 0;
+        margin: 20px;
+    }
+
+    nav ul li a:hover {
+        color: black;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .teams {
+        margin: 30px 8%;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    .card_events {
+        width: 300px;
+    }
+
+    .swiper-container .swiper-wrapper .swiper-slide{
+        width: 300px;
+    }
+
+    .card_medium {
+        width: 300px;
+    }
+
+    .swiper-container .swiper-wrapper .swiper-slide{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #icon {
+        height: 180px;
+        width: 160px;
+    }
+
+    #disp {
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    .main {
+        padding-top: 15%;
+    }
+
+    .flex {
+        padding-left: 0px;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+
+    .typing, .typ {
+        font-size: 6vw;
+    }
+
+    .changing-text {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        background: black;
+    }
+
+    label.logo {
+        font-size: 15px;
+        margin-top: 0.3vh;
+    }
 }

@@ -1,40 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
-
 body {
     margin-top: 8vh;
     background-color: black !important;
     font-family: 'Red Rose', cursive;
 }
 
+
+
+
 /* SCROLLBAR */
-/* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
     background: black;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgb(230, 97, 0);
-    /*    border: 1px solid rgba(255, 255, 255, .1);*/
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(230, 97, 0);
 }
+
+
+
+
 
 /* Navbar */
 
@@ -47,7 +44,6 @@ nav {
     z-index: 100;
     transition: all 1s;
 }
-
 label.logo {
     vertical-align: top;
     font-size: 25px;
@@ -58,8 +54,7 @@ label.logo {
     float: right;
     margin-right: 3%;
 }
-
-#back,#mfc{
+#back{
     vertical-align: top;
     font-size: 25px;
     text-transform: uppercase;
@@ -67,7 +62,6 @@ label.logo {
     line-height: 8vh;
     color: rgb(226, 226, 226);
 }
-
 #back{
     text-align: left;
     margin-left: 5%;
@@ -75,49 +69,53 @@ label.logo {
     font-size: 25px;
     cursor: pointer;
 }
-
 #back:hover{
     cursor: pointer;
 }
-
 #back label{
     cursor: pointer;
 }
-
 #mfc{
-    text-align: right;
-    margin-right: 5%;
+    display: none;
+    width: auto;
+}
+nav img{
+    width: 11%;
+    height: 6vh;
     float: right;
-    padding-bottom: 10px;
+    margin-right: 5%;
+    margin-top: 1vh;
     display: none;
 }
-
 #back:hover{
     color: rgb(230, 97, 0);
 }
-
 #mfc:hover{
     color: rgb(230, 97, 0);
 }
-
 .logo:hover{
     color: rgb(230, 97, 0);
 }
-
 .scrolled {
     background-color: black;
 }
 
+
+
+
+
+/*EVENTS*/
+
+
+
 .events-detail{
     background: #08192d;
 }
-
 .about{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
 }
-
 .about-title{
     width: 35%;
     height: 100vh;
@@ -134,11 +132,9 @@ label.logo {
     letter-spacing: 10px;
     box-shadow: 0 0 30px #d35400;
 }
-
 .about-pages{
     width: 65%;
 }
-
 .about-pages div{
     height: 100vh;
     display: flex;
@@ -147,24 +143,21 @@ label.logo {
     align-items: center;
     color: white;
 }
-
 .about-pages div p{
     width: 80%;
     font-size: 18px;
     line-height: 30px;
 }
-
 .about-pages div:nth-child(1){
     background-color: #ffc107;
 }
-
 .about-pages div:nth-child(2){
     background-color: rgb(129,42,110);
 }
-
 .about-pages div:nth-child(3){
     background-color: rgb(31,88,107);
 }
+
 
 
 
@@ -173,11 +166,9 @@ label.logo {
     margin-left: 20%;
     margin-right: 20%;
 }
-
 .about-pages-rivera{
     width: 65%;
 }
-
 .about-pages-rivera div{
     height: 100vh;
     display: flex;
@@ -186,39 +177,31 @@ label.logo {
     align-items: center;
     color: white;
 }
-
 .about-pages-rivera div p{
     width: 80%;
     font-size: 18px;
     line-height: 30px;
 }
-
 .about-pages-rivera div:nth-child(1){
     background-color: rgb(56,134,89);
 }
-
 .about-pages-rivera div:nth-child(2){
     background-color: rgb(129,42,110);
 }
-
 .about-pages-rivera div:nth-child(3){
     background-color: rgb(31,88,107);
 }
-
 .about-pages-rivera div:nth-child(4){
     background-color: rgb(129,42,110);
 }
-
 .about-daily{
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
 }
-
 .about-pages-daily{
     width: 65%;
 }
-
 .about-pages-daily div{
     height: 100vh;
     display: flex;
@@ -227,32 +210,29 @@ label.logo {
     align-items: center;
     color: white;
 }
-
 .about-pages-daily div p{
     width: 80%;
     font-size: 18px;
     line-height: 30px;
 }
-
 .about-pages-daily div:nth-child(1){
     background-color: rgb(56,134,89);
 }
-
 .about-pages-daily div:nth-child(2){
     background-color: rgb(129,42,110);
 }
-
 .about-pages-daily div:nth-child(3){
     background-color: rgb(31,88,107);
 }
-
 .about-pages-daily div:nth-child(4){
     background-color: rgb(129,42,110);
 }
-
 .hidden-content{
     display: none;
 }
+
+
+
 
 @media only screen and (max-width: 1334px) {
     label.logo {
@@ -260,92 +240,77 @@ label.logo {
         margin-bottom: 0;
         margin-top: 0.4vh;
     }
-
     #back{
         font-size: 20px;
     }
 }
-
 @media only screen and (max-width: 1200px){
     .about{
         margin-left: 10%;
         margin-right: 10%;
     }
-
     .about-daily{
         margin-left: 10%;
         margin-right: 10%;
     }
-
     .about-rivera{
         margin-left: 10%;
         margin-right: 10%;
     }
-
     body {
         overflow-x: hidden;
     }
-
     nav {
         background: black;
     }
 }
-
 @media only screen and (max-width: 950px){
     .about{
         margin-left: 0;
         margin-right: 0;
     }
-
     .about-daily{
         margin-left: 0;
         margin-right: 0;
     }
-
     .about-rivera{
         margin-left: 0;
         margin-right: 0;
     }
-
     .about-title h2{
         font-size: 35px;
     }
 }
-
 @media only screen and (max-width: 600px){
     .about-title{
         width: 25%;
         background: #08192d;
     }
-
     .about-pages, .about-pages-rivera, .about-pages-daily{
         width: 85%;
     }
-
     .about-pages div p, .about-pages-rivera div p, .about-pages-daily div p{
       font-size: 15px !important;
       line-height: 1.5;
     }
-
-
     .about-title p{
         color: rgb(230, 97, 0);
         font-size: 40px;
         letter-spacing: 5px;
     }
-
     nav {
         background: black;
     }
-
     label.logo {
         font-size: 15px;
         margin-top: 0.3vh;
         display: none;
     }
-
-    #back,#mfc{
+    #back{
         display: block;
         font-size: 15px;
+    }
+    nav img{
+        display: block;
     }
 }

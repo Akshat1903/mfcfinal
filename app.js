@@ -48,7 +48,7 @@ function typingEffect() {
         if (word.length > 0) {
             document.getElementById('word').innerHTML += word.shift();
         } else {
-            deletingEffect();
+            timer = setTimeout(deletingEffect, 1500);
             return false;
         };
         timer = setTimeout(loopTyping, 200);

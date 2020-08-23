@@ -641,6 +641,7 @@ nav ul li a:hover {
     font-size: 25px;
     transform: translateY(0px);
     transition: transform 0.6s ease-in-out;
+    margin-bottom: 0.5rem !important;
 }
 .team-card .board-position {
     display: block;
@@ -802,7 +803,7 @@ nav ul li a:hover {
     }
     #disp {
         font-weight: 500;
-        font-size: 50px;
+        font-size: 40px;
     }
     .main {
         padding-top: 15%;
@@ -838,5 +839,65 @@ nav ul li a:hover {
     label.logo {
         font-size: 15px;
         margin-top: 0.3vh;
+    }
+}
+@media screen and (min-height: 1000px ) {
+    .main{
+        margin-top: 8vh;
+    }
+    #icon{
+        height: 270px;
+        width: 270px;
+        margin-bottom: 30px;
+    }
+    #disp{
+        font-size: 65px;
+    }
+    .lead {
+        font-size: 1.9rem !important;
+    }
+    .flex {
+        padding-left: 0px;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .typing, .typ {
+        font-size: 6vw;
+    }
+    .domains{
+        margin: 0 2% !important;
+    }
+    .burger{
+        margin-top: 2.7vh;
+    }
+    nav ul li a p {
+        font-size: 30px;
+    }
+    nav ul li {
+        opacity: 0;
+        margin: 40px;
+    }
+}
+@media screen and (min-height: 1300px ) {
+    .main{
+        margin-top: 12vh;
+    }
+    #disp{
+        font-size: 95px;
+    }
+    #icon{
+        height: 330px;
+        width: 330px;
+    }
+    .flex {
+        padding-left: 0px;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .lead {
+        font-size: 2.25rem !important;
+    }
+    .burger{
+        margin-top: 3vh;
     }
 }

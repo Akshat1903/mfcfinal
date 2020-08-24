@@ -264,6 +264,12 @@ nav ul li a:hover {
 
 
 /*DOMAINS*/
+#DomainText{
+    color: white;
+    width: 60vw;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
 #domain {
     margin-top: 20px;
     padding-top: 70px;
@@ -302,6 +308,7 @@ nav ul li a:hover {
 .card-title {
     margin-bottom: 0 !important;
     padding: 12px;
+    font-size: 1.10rem !important;
 }
 .cover {
     height: 0;
@@ -541,13 +548,17 @@ nav ul li a:hover {
     height: 100px;
     width: 100px;
     opacity: 0;
-    top: -60px;
+    top: -40px;
     right: 20px;
     margin: 0;
     transition: 0.5s;
 }
 .card_medium:hover .content_medium img{
-    top: -120px;
+    top: -80px;
+    opacity: 0.7;
+}
+#cs:hover .content_medium img{
+    top: -65px;
     opacity: 0.7;
 }
 .card_medium .content_medium h3{
@@ -752,6 +763,9 @@ nav ul li a:hover {
     nav ul li a p {
         font-size: 16px;
     }
+    .cover{
+        font-size: 14px !important;
+    }
 }
 
 
@@ -791,9 +805,16 @@ nav ul li a:hover {
     .teams {
         margin: 30px 8%;
     }
+    .cover{
+        font-size: 12px !important;
+    }
 }
 
-
+@media only screen and (max-width: 768px) {
+    .cover{
+        font-size: 16px !important;
+    }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -841,6 +862,15 @@ nav ul li a:hover {
         margin-top: 0.3vh;
     }
 }
+
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 65vw !important;
+    }
+}
+
+
 @media screen and (min-height: 1000px ) {
     .main{
         margin-top: 8vh;
@@ -901,3 +931,4 @@ nav ul li a:hover {
         margin-top: 3vh;
     }
 }
+

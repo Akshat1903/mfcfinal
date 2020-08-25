@@ -367,6 +367,9 @@ nav ul li a:hover {
     opacity: 0;
     transition: 0.9;
 }
+.domain-card{
+  margin-top: 30px;
+}
 
 
 

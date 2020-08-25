@@ -961,30 +961,46 @@ nav ul li a:hover {
         padding-top: 0;
     }
     .burger div {
-            height: 2.5px;
+        height: 2.5px;
     }
     .burger{
         margin-top: 1.2vh;
     }
     #icon {
-        height: 120px;
+        height: 100px;
         width: 100px;
     }
     #disp{
-        font-size: 3rem;
+        font-size: 2.3rem;
     }
     .lead{
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
     .flex {
         margin-top: 2%;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        padding-left: 15vw;
+        padding-left: 24vw;
     }
     .cover{
         font-size: 12px !important;
+    }
+    .jumbotron {
+        padding: 2.5rem 2rem;
+    }
+    .typing, .typ{
+        font-size: 2vw;
+    }
+    .typing{
+        padding-left: 7px;
+    }
+    .fa-arrow-down{
+        bottom: 2vh;
+    }
+    .fa-arrow-down:before {
+        font-size: 1.2rem;
+    }
+    nav ul li {
+        opacity: 0;
+        margin: 14px;
     }
 }
 

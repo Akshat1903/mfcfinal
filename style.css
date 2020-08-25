@@ -764,7 +764,7 @@ nav ul li a:hover {
         font-size: 16px;
     }
     .cover{
-        font-size: 14px !important;
+        font-size: 14px;
     }
 }
 
@@ -945,6 +945,46 @@ nav ul li a:hover {
     }
     .burger{
         margin-top: 3vh;
+    }
+}
+
+@media screen and (max-height: 420px ) {
+    nav{
+        height: 10vh;
+    }
+    label.logo {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 1.2vh;
+    }
+    .main{
+        padding-top: 0;
+    }
+    .burger div {
+            height: 2.5px;
+    }
+    .burger{
+        margin-top: 1.2vh;
+    }
+    #icon {
+        height: 120px;
+        width: 100px;
+    }
+    #disp{
+        font-size: 3rem;
+    }
+    .lead{
+        font-size: 1rem;
+    }
+    .flex {
+        margin-top: 2%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-left: 15vw;
+    }
+    .cover{
+        font-size: 12px !important;
     }
 }
 

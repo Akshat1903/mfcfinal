@@ -378,7 +378,11 @@ nav ul li a:hover {
     text-align: center;
 }
 
-
+#more-stay{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
 
 /* Events */
 #events{

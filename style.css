@@ -7,6 +7,7 @@
 }
 body {
     background-color: black !important;
+    min-width: 320px;
 }
 
 
@@ -77,13 +78,18 @@ label.logo {
     line-height: 8vh;
     color: rgb(226, 226, 226);
     margin-left: 5%;
-    margin-top: 0.7vh;
+    height: 100%;
+}
+.logo p{
+    margin: 0;
 }
 nav ul {
     float: right;
     display: flex;
+    margin: 0;
     margin-right: 5%;
     height: 8vh;
+
 }
 nav ul li {
     list-style: none;
@@ -96,7 +102,7 @@ nav ul li a p {
     letter-spacing: 2px;
     vertical-align: top;
     height: 8vh;
-    padding-top: 3vh;
+    padding-top: 2.4vh;
 }
 nav ul li a {
     font-size: 17px;
@@ -769,7 +775,7 @@ nav ul li a:hover {
     label.logo {
         font-size: 25px;
         margin-bottom: 0;
-        margin-top: 0.4vh;
+        height: 100%;
     }
 
     nav ul li a p {
@@ -887,7 +893,7 @@ nav ul li a:hover {
     }
     label.logo {
         font-size: 15px;
-        margin-top: 0.3vh;
+        height: 100%;
     }
 }
 
@@ -962,12 +968,17 @@ nav ul li a:hover {
 
 @media screen and (max-height: 420px) {
     nav{
-        height: 10vh;
+        height: 12vh;
     }
     label.logo {
         font-size: 20px;
         margin-bottom: 0;
-        margin-top: 1.2vh;
+        margin-top: 0;
+        height: 100%;
+        padding-top: 2vh;
+    }
+    .logo{
+        vertical-align: middle;
     }
     .main{
         padding-top: 0;
@@ -976,11 +987,11 @@ nav ul li a:hover {
         height: 2.5px;
     }
     .burger{
-        margin-top: 1.2vh;
+        margin-top: 2vh;
     }
     #icon {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
     #disp{
         font-size: 2.3rem;
@@ -990,7 +1001,11 @@ nav ul li a:hover {
     }
     .flex {
         margin-top: 2%;
-        padding-left: 24vw;
+        padding-left: 25vw;
+    }
+    nav ul{
+        top: 12vh;
+        height: 88vh;
     }
     .cover{
         font-size: 12px !important;
@@ -1036,15 +1051,7 @@ nav ul li a:hover {
     .card_events .content_events img{
         height: 140px;
         width: 140px;
-         opacity: 0;
         top: -40px;
-        /*
-        right: 20px;
-        margin: 0;
-        transition: 0.5s;
-        -webkit-backface-visibility: hidden;
-        -webkit-transform: translateZ(0) scale(1.0, 1.0);
-        transform: translateZ(0); */
     }
     .card_events:hover .content_events img{
         transition: 0.5s;
@@ -1072,15 +1079,7 @@ nav ul li a:hover {
     .card_medium .content_medium img{
         height: 80px;
         width: 80px;
-         opacity: 0;
         top: -20px;
-        /*
-        right: 20px;
-        margin: 0;
-        transition: 0.5s;
-        -webkit-backface-visibility: hidden;
-        -webkit-transform: translateZ(0) scale(1.0, 1.0);
-        transform: translateZ(0); */
     }
     .card_medium:hover .content_medium img{
         transition: 0.5s;

@@ -990,8 +990,8 @@ nav ul li a:hover {
         margin-top: 2vh;
     }
     #icon {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
     }
     #disp{
         font-size: 2.3rem;
@@ -1002,6 +1002,7 @@ nav ul li a:hover {
     .flex {
         margin-top: 2%;
         padding-left: 25vw;
+        flex-direction: row !important;
     }
     nav ul{
         top: 12vh;
@@ -1011,7 +1012,7 @@ nav ul li a:hover {
         font-size: 12px !important;
     }
     .jumbotron {
-        padding: 2.5rem 2rem;
+        padding-top: 15vh !important;
     }
     .typing, .typ{
         font-size: 2vw;

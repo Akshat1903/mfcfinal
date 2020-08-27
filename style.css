@@ -644,7 +644,8 @@ nav ul li a:hover {
     text-align: center;
 }
 .team-card {
-    background: white;
+    /*background: white;*/
+    background-color: white;
     height: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -652,6 +653,7 @@ nav ul li a:hover {
     border-radius: .8rem;
     transition: box-shadow 0.5s;
     color: black;
+    transition: box-shadow 0.8s, background-color 0.8s ease;
 }
 .team-card .first-name {
     display: block;
@@ -679,8 +681,9 @@ nav ul li a:hover {
 }
 .team-card:hover {
     box-shadow: 5px 5px 5px #aaaaaa;
-    background: linear-gradient(to bottom, #fc6076 0%, rgb(230, 97, 0) 100%);
-    transition: box-shadow 0.8s;
+    /*background: linear-gradient(to bottom, #fc6076 0%, rgb(230, 97, 0) 100%);*/
+    background-color: rgb(230, 97, 0);
+    transition: box-shadow 0.8s, background-color 0.8s ease;
     padding-top: 0;
     cursor: default;
 }
@@ -696,6 +699,21 @@ nav ul li a:hover {
     border-radius: 0.8rem;
     margin-bottom: 20px;
     transition: border-radius 0.6s, box-shadow 0.6s, height 0.6s, width 0.6s;
+}
+.team-card:hover .first-name {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 0.6s ease-in-out;
+}
+.team-card:hover .last-name {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 0.6s ease-in-out;
+}
+.team-card:hover .board-position {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 0.6s ease-in-out;
 }
 /* .team-card .team-card-social-icon {
     margin: 0;
@@ -772,22 +790,6 @@ nav ul li a:hover {
   box-shadow: 0 0 15px #ffa502;
   text-shadow: 0 0 15px #ffa502;
 }
-.team-card:hover .first-name {
-    opacity: 0;
-    transform: translateY(-100px);
-    transition: transform 0.6s ease-in-out;
-}
-.team-card:hover .last-name {
-    opacity: 0;
-    transform: translateY(-100px);
-    transition: transform 0.6s ease-in-out;
-}
-.team-card:hover .board-position {
-    opacity: 0;
-    transform: translateY(-100px);
-    transition: transform 0.6s ease-in-out;
-}
-
 .card-margin {
     margin: 50px 0;
 }

@@ -768,7 +768,7 @@ nav ul li a:hover {
     color: white;
     transition: .5s;
 }
-.team-card .team-card-social-icon ul li a:before {
+/* .team-card .team-card-social-icon ul li a:before {
   content: '';
   position: absolute;
   top:0;
@@ -790,7 +790,123 @@ nav ul li a:hover {
   color: #ffa502;
   box-shadow: 0 0 15px #ffa502;
   text-shadow: 0 0 15px #ffa502;
+} */
+
+
+.ldin:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: lightblue;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
 }
+
+
+.ldin:hover:before{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px lightblue;
+  filter: blur(3px);
+}
+
+
+.ldin:hover{
+  color: lightblue !important;
+  box-shadow: 0 0 15px lightblue;
+  text-shadow: 0 0 15px lightblue;
+}
+
+
+.gith:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: lightgreen;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+
+.gith:hover:before{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px lightgreen;
+  filter: blur(3px);
+}
+
+
+.gith:hover{
+  color: lightgreen !important;
+  box-shadow: 0 0 15px lightgreen;
+  text-shadow: 0 0 15px lightgreen;
+}
+
+.glb:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: white;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+
+.glb:hover:before{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px white;
+  filter: blur(3px);
+}
+
+
+.glb:hover{
+  color: white !important;
+  box-shadow: 0 0 15px white;
+  text-shadow: 0 0 15px white;
+}
+
+.insta:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: #ffa502;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+
+.insta:hover:before{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ffa502;
+  filter: blur(3px);
+}
+
+
+.insta:hover{
+  color: #ffa502 !important;
+  box-shadow: 0 0 15px #ffa502;
+  text-shadow: 0 0 15px #ffa502;
+}
+
+
 .card-margin {
     margin: 50px 0;
 }

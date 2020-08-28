@@ -1,10 +1,10 @@
-window.addEventListener("load", function()
-{
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
-    const mainNav = document.querySelector("nav");
-    mainNav.className += " fixed-top";
-    });
+// window.addEventListener("load", function()
+// {
+//     const loader = document.querySelector(".loader");
+//     loader.className += " hidden";
+//     const mainNav = document.querySelector("nav");
+//     mainNav.className += " fixed-top";
+//     });
 
 
 $(document).ready();

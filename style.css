@@ -40,13 +40,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #070507;
 }
 .loader.hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
 }
-.loader img {
+.loader video {
     height: 30%;
 }
 @keyframes fadeOut {
@@ -312,6 +312,7 @@ nav ul li a:hover {
     padding: 0 !important;
     border-radius: 20px !important;
     transition: all 0.4s;
+    z-index: 100;
 }
 .card {
     text-align: center;

@@ -843,7 +843,7 @@ nav ul li a:hover {
   width:100%;
   height:100%;
   border-radius:50%;
-  background: lightgreen;
+  background: white;
   transition: .5s;
   transform: scale(.9);
   z-index: -1;
@@ -852,46 +852,18 @@ nav ul li a:hover {
 
 .gith:hover:before{
   transform: scale(1.2);
-  box-shadow: 0 0 15px lightgreen;
+  box-shadow: 0 0 15px white;
   filter: blur(3px);
 }
 
 
 .gith:hover{
-  color: lightgreen !important;
-  box-shadow: 0 0 15px lightgreen;
-  text-shadow: 0 0 15px lightgreen;
-}
-
-.glb:before{
-  content: '';
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  background: white;
-  transition: .5s;
-  transform: scale(.9);
-  z-index: -1;
-}
-
-
-.glb:hover:before{
-  transform: scale(1.2);
-  box-shadow: 0 0 15px white;
-  filter: blur(3px);
-}
-
-
-.glb:hover{
   color: white !important;
-  box-shadow: 0 0 15px white;
+  box-shadow: 0 0 15px black;
   text-shadow: 0 0 15px white;
 }
 
-.insta:before{
+.glb:before{
   content: '';
   position: absolute;
   top:0;
@@ -906,17 +878,45 @@ nav ul li a:hover {
 }
 
 
-.insta:hover:before{
+.glb:hover:before{
   transform: scale(1.2);
   box-shadow: 0 0 15px #ffa502;
   filter: blur(3px);
 }
 
 
-.insta:hover{
+.glb:hover{
   color: #ffa502 !important;
   box-shadow: 0 0 15px #ffa502;
   text-shadow: 0 0 15px #ffa502;
+}
+
+.insta:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background: purple;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+
+.insta:hover:before{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px purple;
+  filter: blur(3px);
+}
+
+
+.insta:hover{
+  color: purple !important;
+  box-shadow: 0 0 15px purple;
+  text-shadow: 0 0 15px purple;
 }
 
 

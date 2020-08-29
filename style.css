@@ -859,7 +859,7 @@ nav ul li a:hover {
 
 .gith:hover{
   color: white !important;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 15px white;
   text-shadow: 0 0 15px white;
 }
 
@@ -899,7 +899,7 @@ nav ul li a:hover {
   width:100%;
   height:100%;
   border-radius:50%;
-  background: purple;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   transition: .5s;
   transform: scale(.9);
   z-index: -1;
@@ -908,15 +908,15 @@ nav ul li a:hover {
 
 .insta:hover:before{
   transform: scale(1.2);
-  box-shadow: 0 0 15px purple;
+  box-shadow: 0 0 15px radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   filter: blur(3px);
 }
 
 
 .insta:hover{
-  color: purple !important;
-  box-shadow: 0 0 15px purple;
-  text-shadow: 0 0 15px purple;
+  color: pink !important;
+  box-shadow: 0 0 15px radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  text-shadow: 0 0 15px radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 

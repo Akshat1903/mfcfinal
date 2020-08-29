@@ -68,7 +68,7 @@ body {
     width: auto;
     height: auto;
     z-index: -999;
-    opacity: 0.3;
+    /*opacity: 0.7;*/
 }
 
 
@@ -933,20 +933,20 @@ nav ul li a:hover {
 
 /*FOOTER*/
 .page-footer {
-    /*background-color: rgb(230, 97, 0);*/
-    background-image: url(imgs/draft1.jpg);
+    background-color: rgb(230, 97, 0);
+/*    background-image: url(imgs/draft1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    color: white !important;
+    background-size: cover;*/
+    color: black !important;
     bottom: 0 !important;
 }
 #white, .clearfix {
-    color: rgb(230, 97, 0);
-    border-color: rgb(230, 97, 0);
+    color: black;
+    border-color: black;
 }
 .list-unstyled li a {
-    color: white !important;
+    color: black !important;
 }
 .icons {
     margin-bottom: 0 !important;
@@ -954,12 +954,7 @@ nav ul li a:hover {
 .list-unstyled li a:hover {
     text-decoration: none;
 }
-.page-footer h5{
-    color: rgb(230, 97, 0);
-}
-.page-footer .fa,.page-footer .fab,.copy{
-    color: rgb(230, 97, 0);
-}
+
 
 
 

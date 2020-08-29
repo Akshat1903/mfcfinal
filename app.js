@@ -15,6 +15,7 @@ window.onload = setTimeout(function(){
     loader.className += " hidden";
     const mainNav = document.querySelector("nav");
     mainNav.className += " fixed-top";
+    typing();
 }, 5300);
 
 
@@ -55,41 +56,46 @@ const words = ["DEVELOPERS", "DESIGNERS", "CODERS","EVERYONE!!"];
 let i = 0;
 let timer;
 
-function typingEffect() {
-    let word = words[i].split("");
-    var loopTyping = function() {
-        if (word.length > 0) {
-            document.getElementById('word').innerHTML += word.shift();
-        } else {
-            timer = setTimeout(deletingEffect, 1500);
-            return false;
-        };
-        timer = setTimeout(loopTyping, 200);
-    };
-    loopTyping();
-};
 
-function deletingEffect() {
-    let word = words[i].split("");
-    var loopDeleting = function() {
-        if (word.length > 0) {
-            word.pop();
-            document.getElementById('word').innerHTML = word.join("");
-        } else {
-            if (words.length > (i + 1)) {
-                i++;
+function typing(){
+    function typingEffect() {
+        let word = words[i].split("");
+        var loopTyping = function() {
+            if (word.length > 0) {
+                document.getElementById('word').innerHTML += word.shift();
             } else {
-                i = 0;
+                timer = setTimeout(deletingEffect, 1500);
+                return false;
             };
-            typingEffect();
-            return false;
+            timer = setTimeout(loopTyping, 200);
         };
-        timer = setTimeout(loopDeleting, 100);
+        loopTyping();
     };
-    loopDeleting();
-};
 
-typingEffect();
+    function deletingEffect() {
+        let word = words[i].split("");
+        var loopDeleting = function() {
+            if (word.length > 0) {
+                word.pop();
+                document.getElementById('word').innerHTML = word.join("");
+            } else {
+                if (words.length > (i + 1)) {
+                    i++;
+                } else {
+                    i = 0;
+                };
+                typingEffect();
+                return false;
+            };
+            timer = setTimeout(loopDeleting, 100);
+        };
+        loopDeleting();
+    };
+
+    typingEffect();
+}
+
+
 
 
 var swiper = new Swiper('.swiper-container', {

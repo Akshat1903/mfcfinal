@@ -7,7 +7,7 @@
 }
 body {
     margin-top: 8vh;
-    background-color: black !important;
+    
     font-family: 'Red Rose', cursive;
 }
 
@@ -102,6 +102,16 @@ nav img{
 
 
 
+.video_selector{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+}
 
 
 /*EVENTS*/
@@ -109,7 +119,7 @@ nav img{
 
 
 .events-detail{
-    background: #08192d;
+    background: transparent;
 }
 .about{
     display: flex;

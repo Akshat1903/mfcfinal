@@ -2,22 +2,22 @@
 
 
 
-window.addEventListener("load", function()
-{
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
-    const mainNav = document.querySelector("nav");
-    mainNav.className += " fixed-top";
-    typing();
-    });
-
-// window.onload = setTimeout(function(){
+// window.addEventListener("load", function()
+// {
 //     const loader = document.querySelector(".loader");
 //     loader.className += " hidden";
 //     const mainNav = document.querySelector("nav");
 //     mainNav.className += " fixed-top";
 //     typing();
-// }, 6000);
+//     });
+
+window.onload = setTimeout(function(){
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+    const mainNav = document.querySelector("nav");
+    mainNav.className += " fixed-top";
+    typing();
+}, 6000);
 
 
 

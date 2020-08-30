@@ -7,7 +7,7 @@
 }
 body {
     margin-top: 8vh;
-    
+
     font-family: 'Red Rose', cursive;
 }
 
@@ -177,13 +177,6 @@ nav img{
     background-color: rgb(0, 3, 99);
     color: rgb(158, 184, 224);
 }
-.about-pages div:nth-child(3){
-    background-color: rgb(31,88,107);
-}
-
-
-
-
 .about-rivera{
     display: flex;
     margin-left: 20%;
@@ -206,16 +199,8 @@ nav img{
     line-height: 30px;
 }
 .about-pages-rivera div:nth-child(1){
-    background-color: rgb(56,134,89);
-}
-.about-pages-rivera div:nth-child(2){
-    background-color: rgb(129,42,110);
-}
-.about-pages-rivera div:nth-child(3){
-    background-color: rgb(31,88,107);
-}
-.about-pages-rivera div:nth-child(4){
-    background-color: rgb(129,42,110);
+    background-color: #e4c99a;
+    color: #5f3303;
 }
 .about-daily{
     display: flex;
@@ -239,7 +224,8 @@ nav img{
     line-height: 30px;
 }
 .about-pages-daily div:nth-child(1){
-    background-color: rgb(56,134,89);
+    background-color: #f5c973;
+    color: #ed1d25;
 }
 .about-pages-daily div:nth-child(2){
     background-color: rgb(129,42,110);

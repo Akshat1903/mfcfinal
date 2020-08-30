@@ -451,8 +451,8 @@ nav ul li a:hover {
 }
 .card_events .content_events img{
     position: absolute;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     opacity: 0;
     top: -60px;
     right: 20px;

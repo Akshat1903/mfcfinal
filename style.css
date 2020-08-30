@@ -971,7 +971,7 @@ nav ul li a:hover {
     nav ul li a p {
         font-size: 16px;
     }
-    .cover{
+    .card:hover .cover{
         font-size: 14px;
     }
 }
@@ -980,7 +980,7 @@ nav ul li a:hover {
 
 
 
-@media screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
     body {
         overflow-x: hidden;
     }
@@ -1013,14 +1013,14 @@ nav ul li a:hover {
     .teams {
         margin: 30px 8%;
     }
-    .cover{
-        font-size: 12px;
+    .car:hover .cover{
+        font-size: 9px;
         top: 3vh;
     }
 }
 
-@media not screen and (max-width: 768px) {
-    .cover{
+@media only screen and (max-width: 768px) {
+    .card:hover .cover{
         font-size: 16px;
         top: 5vh;
     }

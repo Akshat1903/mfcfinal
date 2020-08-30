@@ -5,10 +5,7 @@ function splitScrollGravitas(){
     for (var i=1;i<=3;i++){
         var len = document.querySelectorAll('.category-slides-'+i).length;
         var height = (len*100) + 'vh';
-        console.log(height);
         var percent = (len - 1)*100;
-        console.log(percent);
-        console.log('abc');
         document.querySelector('.about-' + i).style.height = height;
         if(percent>0){
 

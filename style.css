@@ -1065,10 +1065,15 @@ nav ul li a:hover {
     .card_medium .content_medium img {
         height: 80px;
         width: 80px;
+        top: -40px;
     }
     .card_events .content_events img{
         height: 120px;
         width: 120px;
+    }
+    .card_events:hover .content_events img{
+        top: -95px;
+        opacity: 0.7;
     }
     .card_events .content_events p{
         font-size: 13px;

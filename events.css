@@ -218,11 +218,6 @@ nav img{
     align-items: center;
     color: white;
 }
-.about-pages-daily div p{
-    width: 80%;
-    font-size: 18px;
-    line-height: 30px;
-}
 .about-pages-daily div:nth-child(1){
     background-color: #f5c973;
     color: #ed1d25;
@@ -236,10 +231,18 @@ nav img{
 .about-pages-daily div:nth-child(4){
     background-color: rgb(129,42,110);
 }
-.hidden-content{
-    display: none;
+.category-slides-3 p{
+    width: 90%;
+    font-size: 15px;
+    line-height: 20px;
 }
-
+.category-slides-3 h2{
+    margin-bottom: 2rem;
+}
+#mozfest{
+    font-size: 18px;
+    line-height: 30px;
+}
 
 
 

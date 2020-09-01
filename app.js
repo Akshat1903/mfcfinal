@@ -1,7 +1,3 @@
-// setTimeout("load", 3000);
-
-
-
 // window.addEventListener("load", function()
 // {
 //     const loader = document.querySelector(".loader");
@@ -115,3 +111,17 @@ var swiper = new Swiper('.swiper-container', {
                 clickable: true,
               },
         });
+
+
+$('#year ul li').on('click',function(){
+    $('#year ul li').removeClass('selected-li');
+    $(this).addClass('selected-li');
+});
+$('#2018').on('click', function(){
+    $(".current").css("display", "none");
+    $(".previous").css("display", "block");
+});
+$('#now').on('click', function(){
+    $(".previous").css("display", "none");
+    $(".current").css("display", "block");
+});

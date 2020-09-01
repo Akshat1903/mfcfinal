@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +9,6 @@
 }
 body {
     margin-top: 8vh;
-
     font-family: 'Red Rose', cursive;
 }
 
@@ -223,21 +224,34 @@ nav img{
     color: #ed1d25;
 }
 .about-pages-daily div:nth-child(2){
-    background-color: rgb(129,42,110);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
 }
 .about-pages-daily div:nth-child(3){
-    background-color: rgb(31,88,107);
+    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
 }
 .about-pages-daily div:nth-child(4){
-    background-color: rgb(129,42,110);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 .category-slides-3 p{
-    width: 90%;
-    font-size: 15px;
-    line-height: 20px;
+    width: 80%;
+    font-size: 22px;
+    line-height: 1.2;
 }
 .category-slides-3 h2{
-    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.data_mining{
+    font-family: 'Bungee', cursive !important;
+}
+.cyber_security{
+    font-family: 'Press Start 2P', cursive !important;
+}
+.code_a_thon{
+    font-family: 'Zilla Slab Highlight', cursive !important;
 }
 #mozfest{
     font-size: 18px;
@@ -301,14 +315,23 @@ nav img{
     .about-pages, .about-pages-rivera, .about-pages-daily{
         width: 85%;
     }
-    .about-pages div p, .about-pages-rivera div p, .about-pages-daily div p{
+    .about-pages div p, .about-pages-rivera div p{
       font-size: 14px !important;
+      line-height: 1.4;
+    }
+    .about-pages-daily div p{
+      font-size: 12px !important;
       line-height: 1.4;
     }
     .about-title p{
         color: rgb(230, 97, 0);
         font-size: 40px;
         letter-spacing: 5px;
+    }
+    .category-slides-3 h2{
+        font-size: 20px;
+        padding-bottom: 0px;
+        margin-bottom: 15px;
     }
     nav {
         background: black;

@@ -17,7 +17,7 @@ window.onload = setTimeout(function(){
     const mainNav = document.querySelector("nav");
     mainNav.className += " fixed-top";
     typing();
-}, 4000);
+}, 6000);
 
 
 
